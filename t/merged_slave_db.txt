@@ -1,0 +1,1886 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+funkrehab.net		IN SOA	vader.deepsky.com. root.deepsky.com. (
+				1116445045 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				302400     ; expire (3 days 12 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	ns1.walled.net.
+			NS	vader.deepsky.com.
+			A	66.207.216.43
+			MX	10 mail.deepsky.com.
+$ORIGIN funkrehab.net.
+ftp			A	66.207.216.43
+mail			A	66.207.216.43
+www			A	66.207.216.43
+$ORIGIN .
+$TTL 86400	; 1 day
+wavewood.ca		IN SOA	vader.deepsky.com. root.deepsky.com. (
+				1214150527 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				302400     ; expire (3 days 12 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	dns01.walled.net.
+			NS	vader.deepsky.com.
+			A	66.207.216.43
+			MX	10 mail.icomm.ca.
+			MX	15 vader.deepsky.com.
+$ORIGIN wavewood.ca.
+ftp			A	66.207.216.43
+mail			A	66.207.216.45
+www			A	66.207.216.43
+$ORIGIN .
+$TTL 86400	; 1 day
+ohanahonu.org		IN SOA	vader.deepsky.com. root.deepsky.com. (
+				1294766928 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				302400     ; expire (3 days 12 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	dns01.walled.net.
+			NS	vader.deepsky.com.
+			A	66.207.216.43
+			MX	10 mail.deepsky.com.
+			MX	15 vader.deepsky.com.
+$ORIGIN ohanahonu.org.
+ftp			A	66.207.216.43
+mail			A	66.207.216.43
+www			A	66.207.216.43
+$ORIGIN .
+$TTL 86400	; 1 day
+funkrehab.com		IN SOA	vader.deepsky.com. root.deepsky.com. (
+				1116445045 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				302400     ; expire (3 days 12 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	ns1.walled.net.
+			NS	vader.deepsky.com.
+			A	66.207.216.43
+			MX	10 mail.deepsky.com.
+$ORIGIN funkrehab.com.
+ftp			A	66.207.216.43
+mail			A	66.207.216.43
+www			A	66.207.216.43
+$ORIGIN .
+$TTL 86400	; 1 day
+funkrehab.org		IN SOA	vader.deepsky.com. root.deepsky.com. (
+				1203903257 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				302400     ; expire (3 days 12 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	ns1.walled.net.
+			NS	vader.deepsky.com.
+			A	66.207.216.43
+			MX	10 mail.deepsky.com.
+$ORIGIN funkrehab.org.
+ftp			A	66.207.216.43
+mail			A	66.207.216.43
+wikileaks		A	88.80.13.160
+www			A	66.207.216.43
+$ORIGIN .
+$TTL 86400	; 1 day
+icomm.ca		IN SOA	vader.deepsky.com. root.deepsky.com. (
+				1287429993 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				302400     ; expire (3 days 12 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	dns01.walled.net.
+			NS	vader.deepsky.com.
+			A	66.207.216.45
+			MX	1 mail.icomm.ca.
+			MX	15 vader.deepsky.com.
+$ORIGIN icomm.ca.
+aacwt			A	216.126.94.54
+			MX	5 mail
+$ORIGIN aacwt.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+abc-ny			A	216.126.94.54
+			MX	5 mail
+$ORIGIN abc-ny.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+acrossoceans		A	216.126.94.54
+			MX	5 mail
+$ORIGIN acrossoceans.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+acsd			A	216.126.94.54
+			MX	5 mail
+$ORIGIN acsd.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+acsms			A	216.126.94.54
+			MX	5 mail
+$ORIGIN acsms.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+aec			A	216.126.94.54
+			MX	5 mail
+$ORIGIN aec.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+agolf			A	216.126.94.54
+			MX	5 mail
+$ORIGIN agolf.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+agomilw			A	216.126.94.54
+			MX	5 mail
+$ORIGIN agomilw.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ai75oak			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ai75oak.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+aiusa			A	216.126.94.54
+			MX	5 mail
+$ORIGIN aiusa.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ajed			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ajed.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+amnesty67		A	216.126.94.54
+			MX	5 mail
+$ORIGIN amnesty67.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+amnestyca		A	216.126.94.54
+			MX	5 mail
+$ORIGIN amnestyca.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ana			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ana.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+annette			A	216.126.94.54
+			MX	5 mail
+$ORIGIN annette.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+anrl			A	216.126.94.54
+			MX	5 mail
+$ORIGIN anrl.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+anxiety			A	216.126.94.54
+			MX	5 mail
+$ORIGIN anxiety.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ara			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ara.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+araneum			A	216.126.94.54
+			MX	5 mail
+$ORIGIN araneum.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+arcade			A	216.126.94.54
+			MX	5 mail
+$ORIGIN arcade.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ashay			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ashay.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+assetinc		A	216.126.94.54
+			MX	5 mail
+$ORIGIN assetinc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+pal.audio		A	216.126.94.54
+			MX	5 mail
+$ORIGIN pal.audio.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+auorth			A	216.126.94.54
+			MX	5 mail
+$ORIGIN auorth.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+away			A	216.126.94.54
+			MX	5 mail
+$ORIGIN away.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+barkingdog		A	216.126.94.54
+			MX	5 mail
+$ORIGIN barkingdog.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+barriosva		A	216.126.94.54
+			MX	5 mail
+$ORIGIN barriosva.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+bctops			A	216.126.94.54
+			MX	5 mail
+$ORIGIN bctops.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+bear			A	216.126.94.54
+			MX	5 mail
+$ORIGIN bear.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+belmonthouse		A	216.126.94.54
+			MX	5 mail
+$ORIGIN belmonthouse.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+betty			A	216.126.94.54
+			MX	5 mail
+$ORIGIN betty.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+bhs2003			A	216.126.94.54
+			MX	5 mail
+$ORIGIN bhs2003.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+borbely1996		A	216.126.94.54
+			MX	5 mail
+$ORIGIN borbely1996.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+bourbonstrt		A	216.126.94.54
+			MX	5 mail
+$ORIGIN bourbonstrt.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+brace			A	216.126.94.54
+			MX	5 mail
+$ORIGIN brace.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+brbc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN brbc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+brownsea		A	216.126.94.54
+			MX	5 mail
+$ORIGIN brownsea.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+bryanf			A	216.126.94.54
+			MX	5 mail
+$ORIGIN bryanf.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+bslwsa			A	216.126.94.54
+			MX	5 mail
+$ORIGIN bslwsa.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+buff			A	216.126.94.54
+			MX	5 mail
+$ORIGIN buff.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+bumper			A	66.207.216.45
+cace			A	216.126.94.54
+			MX	5 mail
+$ORIGIN cace.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+cafb			A	216.126.94.54
+			MX	5 mail
+$ORIGIN cafb.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+calm			A	216.126.94.54
+			MX	5 mail
+$ORIGIN calm.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+camcanada		A	216.126.94.54
+			MX	5 mail
+$ORIGIN camcanada.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+camplowden		A	216.126.94.54
+			MX	5 mail
+$ORIGIN camplowden.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+canasian		A	216.126.94.54
+			MX	5 mail
+$ORIGIN canasian.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+caniron			A	216.126.94.54
+			MX	5 mail
+$ORIGIN caniron.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+carecen			A	216.126.94.54
+			MX	5 mail
+$ORIGIN carecen.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+carousel		A	216.126.94.54
+			MX	5 mail
+$ORIGIN carousel.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+cat			A	216.126.94.54
+			MX	5 mail
+$ORIGIN cat.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+catcourt		A	216.126.94.54
+			MX	5 mail
+$ORIGIN catcourt.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+cccc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN cccc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+cclcs			A	66.207.218.86
+			MX	5 mail
+$ORIGIN cclcs.icomm.ca.
+www			A	66.207.218.86
+$ORIGIN icomm.ca.
+ccvt			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ccvt.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+cdnfolk			A	216.126.94.54
+			MX	5 mail
+$ORIGIN cdnfolk.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+chaban			A	216.126.94.54
+			MX	5 mail
+$ORIGIN chaban.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+childdev		A	216.126.94.54
+			MX	5 mail
+$ORIGIN childdev.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+chillout		A	216.126.94.54
+			MX	5 mail
+$ORIGIN chillout.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+chpuci			A	216.126.94.54
+			MX	5 mail
+$ORIGIN chpuci.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+cisvtor			A	216.126.94.54
+			MX	5 mail
+$ORIGIN cisvtor.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+clank			A	66.207.216.45
+cmhacan			A	216.126.94.54
+			MX	5 mail
+$ORIGIN cmhacan.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+cnib			A	216.126.94.54
+			MX	5 mail
+$ORIGIN cnib.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+cniblib			A	216.126.94.54
+			MX	5 mail
+$ORIGIN cniblib.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+conc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN conc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+copycatent		A	216.126.94.54
+			MX	5 mail
+$ORIGIN copycatent.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+corktown		A	216.126.94.54
+			MX	5 mail
+$ORIGIN corktown.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+corsaont		A	216.126.94.54
+			MX	5 mail
+$ORIGIN corsaont.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+cpaws			A	216.126.94.54
+			MX	5 mail
+$ORIGIN cpaws.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+cpi			A	216.126.94.54
+			MX	5 mail
+$ORIGIN cpi.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+crct			A	216.126.94.54
+			MX	5 mail
+$ORIGIN crct.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+crmsn-knight		A	216.126.94.54
+			MX	5 mail
+$ORIGIN crmsn-knight.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+csa			A	216.126.94.54
+			MX	5 mail
+$ORIGIN csa.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+csinfo			A	216.126.94.54
+			MX	5 mail
+$ORIGIN csinfo.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+cuchoir			A	216.126.94.54
+			MX	5 mail
+$ORIGIN cuchoir.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+cumc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN cumc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+danceon			A	216.126.94.54
+			MX	5 mail
+$ORIGIN danceon.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+darcy			A	216.126.94.54
+			MX	5 mail
+$ORIGIN darcy.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+darkvineyard		A	216.126.94.54
+			MX	5 mail
+$ORIGIN darkvineyard.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+daycare			A	216.126.94.54
+			MX	5 mail
+$ORIGIN daycare.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+dbread			A	216.126.94.54
+			MX	5 mail
+$ORIGIN dbread.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+dearbornsymphony	A	216.126.94.54
+			MX	5 mail
+$ORIGIN dearbornsymphony.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+democratization		A	216.126.94.54
+			MX	5 mail
+$ORIGIN democratization.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+descant			A	216.126.94.54
+			MX	5 mail
+$ORIGIN descant.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+desna			A	216.126.94.54
+			MX	5 mail
+$ORIGIN desna.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+dragon			A	216.126.94.54
+			MX	5 mail
+$ORIGIN dragon.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+dreamwvr		A	216.126.94.54
+			MX	5 mail
+$ORIGIN dreamwvr.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+durhamp			A	216.126.94.54
+			MX	5 mail
+$ORIGIN durhamp.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ecirmac			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ecirmac.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ee			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ee.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+eeon			A	216.126.94.54
+			MX	5 mail
+$ORIGIN eeon.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+egadz			A	216.126.94.54
+			MX	5 mail
+$ORIGIN egadz.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+eli			A	216.126.94.54
+			MX	5 mail
+$ORIGIN eli.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+emanuel			A	216.126.94.54
+			MX	5 mail
+$ORIGIN emanuel.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+emily			A	66.96.31.226
+			MX	5 mail
+$ORIGIN emily.icomm.ca.
+www			A	66.96.31.226
+$ORIGIN icomm.ca.
+emunah			A	216.126.94.54
+			MX	5 mail
+$ORIGIN emunah.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+eocp			A	216.126.94.54
+			MX	5 mail
+$ORIGIN eocp.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+epiphany		A	216.126.94.54
+			MX	5 mail
+$ORIGIN epiphany.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ern			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ern.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+etsf			A	216.126.94.54
+			MX	5 mail
+$ORIGIN etsf.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+extramile		A	216.126.94.54
+			MX	5 mail
+$ORIGIN extramile.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+fade			A	216.126.94.54
+			MX	5 mail
+$ORIGIN fade.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+faithag			A	216.126.94.54
+			MX	5 mail
+$ORIGIN faithag.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+falco			A	216.126.94.54
+			MX	5 mail
+$ORIGIN falco.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+fergusbb		A	216.126.94.54
+			MX	5 mail
+$ORIGIN fergusbb.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ferretrescue		A	216.126.94.54
+			MX	5 mail
+$ORIGIN ferretrescue.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+fiftyplusto		A	216.126.94.54
+			MX	5 mail
+$ORIGIN fiftyplusto.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+fireweed		A	216.126.94.54
+			MX	5 mail
+$ORIGIN fireweed.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+flpl			A	216.126.94.54
+			MX	5 mail
+$ORIGIN flpl.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+fmc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN fmc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+fon			A	216.126.94.54
+			MX	5 mail
+$ORIGIN fon.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+freechild		A	216.126.94.54
+			MX	5 mail
+$ORIGIN freechild.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ftp			A	66.207.216.45
+gardens2000		A	216.126.94.54
+			MX	5 mail
+$ORIGIN gardens2000.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+gba			A	216.126.94.54
+			MX	5 mail
+$ORIGIN gba.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+gbabe			A	216.126.94.54
+			MX	5 mail
+$ORIGIN gbabe.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+geneinfo		A	216.126.94.54
+			MX	5 mail
+$ORIGIN geneinfo.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+geografija		A	216.126.94.54
+			MX	5 mail
+$ORIGIN geografija.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ghatton			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ghatton.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+gildasto		A	216.126.94.54
+			MX	5 mail
+$ORIGIN gildasto.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+girlsinc		A	216.126.94.54
+			MX	5 mail
+$ORIGIN girlsinc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+goaweb			A	216.126.94.54
+			MX	5 mail
+$ORIGIN goaweb.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+greentea		A	216.126.94.54
+			MX	5 mail
+$ORIGIN greentea.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+gsia			A	216.126.94.54
+			MX	5 mail
+$ORIGIN gsia.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+haifrnds		A	216.126.94.54
+			MX	5 mail
+$ORIGIN haifrnds.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+hawks			A	216.126.94.54
+			MX	5 mail
+$ORIGIN hawks.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+hazards			A	216.126.94.54
+			MX	5 mail
+$ORIGIN hazards.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+heartoffaith		A	216.126.94.54
+			MX	5 mail
+$ORIGIN heartoffaith.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+helder			A	216.126.94.54
+			MX	5 mail
+$ORIGIN helder.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+hhands			A	216.126.94.54
+			MX	5 mail
+$ORIGIN hhands.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+historic		A	216.126.94.54
+			MX	5 mail
+$ORIGIN historic.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+hklink			A	216.126.94.54
+			MX	5 mail
+$ORIGIN hklink.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+hoh			A	216.126.94.54
+			MX	5 mail
+$ORIGIN hoh.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+homeward		A	216.126.94.54
+			MX	5 mail
+$ORIGIN homeward.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+hospex			A	216.126.94.54
+			MX	5 mail
+$ORIGIN hospex.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+iams			A	216.126.94.54
+			MX	5 mail
+$ORIGIN iams.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+iarts			A	216.126.94.54
+			MX	5 mail
+$ORIGIN iarts.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+icg			A	216.126.94.54
+			MX	5 mail
+$ORIGIN icg.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+idgfilms		A	216.126.94.54
+			MX	5 mail
+$ORIGIN idgfilms.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ifirla			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ifirla.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ifoa			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ifoa.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ihcs			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ihcs.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+infolympho		A	216.126.94.54
+			MX	5 mail
+$ORIGIN infolympho.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+innercity		A	216.126.94.54
+			MX	5 mail
+$ORIGIN innercity.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+interim			A	216.126.94.54
+			MX	5 mail
+$ORIGIN interim.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+interval		A	216.126.94.54
+			MX	5 mail
+$ORIGIN interval.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+iotpaa			A	216.126.94.54
+			MX	5 mail
+$ORIGIN iotpaa.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ira			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ira.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+isabella		A	216.126.94.54
+			MX	5 mail
+$ORIGIN isabella.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ivynorth		A	216.126.94.54
+			MX	5 mail
+$ORIGIN ivynorth.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+jachicago		A	216.126.94.54
+			MX	5 mail
+$ORIGIN jachicago.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+jargeorg		A	216.126.94.54
+			MX	5 mail
+$ORIGIN jargeorg.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+jazz			A	216.126.94.54
+			MX	5 mail
+$ORIGIN jazz.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+jhsyop			A	216.126.94.54
+			MX	5 mail
+$ORIGIN jhsyop.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+jmorin			A	216.126.94.54
+			MX	5 mail
+$ORIGIN jmorin.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+john			A	216.126.94.54
+			MX	5 mail
+$ORIGIN john.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+jporter			A	216.126.94.54
+			MX	5 mail
+$ORIGIN jporter.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+kanchoralsoc		A	216.126.94.54
+			MX	5 mail
+$ORIGIN kanchoralsoc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+kinesis			A	216.126.94.54
+			MX	5 mail
+$ORIGIN kinesis.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+kpc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN kpc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ktzl			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ktzl.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+largervision		A	216.126.94.54
+			MX	5 mail
+$ORIGIN largervision.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+laurie			A	216.126.94.54
+			MX	5 mail
+$ORIGIN laurie.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+leaveout		A	216.126.94.54
+			MX	5 mail
+$ORIGIN leaveout.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+lecentre		A	216.126.94.54
+			MX	5 mail
+$ORIGIN lecentre.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+lgbline			A	216.126.94.54
+			MX	5 mail
+$ORIGIN lgbline.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+lilith			A	66.207.216.45
+lists			A	66.207.216.45
+livenet			A	216.126.94.54
+			MX	5 mail
+$ORIGIN livenet.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+logic			A	216.126.94.54
+			MX	5 mail
+$ORIGIN logic.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+loner			A	66.207.216.45
+loons			A	216.126.94.54
+			MX	5 mail
+$ORIGIN loons.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+lorax			A	216.126.94.54
+			MX	5 mail
+$ORIGIN lorax.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+lulacvillage		A	216.126.94.54
+			MX	5 mail
+$ORIGIN lulacvillage.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+lunatrix		A	216.126.94.54
+			MX	5 mail
+$ORIGIN lunatrix.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+lvt			A	216.126.94.54
+			MX	5 mail
+$ORIGIN lvt.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+macos			A	216.126.94.54
+			MX	5 mail
+$ORIGIN macos.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+madisoncsn		A	216.126.94.54
+			MX	5 mail
+$ORIGIN madisoncsn.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+madmagic		A	216.126.94.54
+			MX	5 mail
+$ORIGIN madmagic.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+madness			A	216.126.94.54
+			MX	5 mail
+$ORIGIN madness.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+magyarhaz		A	216.126.94.54
+			MX	5 mail
+$ORIGIN magyarhaz.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+mail			A	66.207.216.45
+majordomo		A	216.126.94.54
+			MX	5 mail
+$ORIGIN majordomo.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+manna			A	216.126.94.54
+			MX	5 mail
+$ORIGIN manna.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+map			A	216.126.94.54
+			MX	5 mail
+$ORIGIN map.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+medc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN medc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+melati			A	216.126.94.54
+			MX	5 mail
+$ORIGIN melati.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+mengcan			A	216.126.94.54
+			MX	5 mail
+$ORIGIN mengcan.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+merchanthope		A	216.126.94.54
+			MX	5 mail
+$ORIGIN merchanthope.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+mfch			A	216.126.94.54
+			MX	5 mail
+$ORIGIN mfch.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+mhlc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN mhlc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+miguel			A	216.126.94.54
+			MX	5 mail
+$ORIGIN miguel.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+mike			A	216.126.94.54
+			MX	5 mail
+$ORIGIN mike.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+misaka			A	216.126.94.54
+			MX	5 mail
+$ORIGIN misaka.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+mizrachi		A	216.126.94.54
+			MX	5 mail
+$ORIGIN mizrachi.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+mj			A	216.126.94.54
+			MX	5 mail
+$ORIGIN mj.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+mjjhs			A	216.126.94.54
+			MX	5 mail
+$ORIGIN mjjhs.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+motherindiaindia	A	216.126.94.54
+			MX	5 mail
+$ORIGIN motherindiaindia.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+msg			A	216.126.94.54
+			MX	5 mail
+$ORIGIN msg.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+msofty			A	216.126.94.54
+			MX	5 mail
+$ORIGIN msofty.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+mtalbunited		A	216.126.94.54
+			MX	5 mail
+$ORIGIN mtalbunited.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+nadia			A	216.126.94.54
+			MX	5 mail
+$ORIGIN nadia.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+namcojeeva		A	216.126.94.54
+			MX	5 mail
+$ORIGIN namcojeeva.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+nclt			A	216.126.94.54
+			MX	5 mail
+$ORIGIN nclt.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+nepa			A	216.126.94.54
+			MX	5 mail
+$ORIGIN nepa.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+nepeanchoir		A	66.207.218.86
+			MX	5 mail
+$ORIGIN nepeanchoir.icomm.ca.
+www			A	66.207.218.86
+$ORIGIN icomm.ca.
+nessor			A	216.126.94.54
+			MX	5 mail
+$ORIGIN nessor.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+net519			A	216.126.94.54
+			MX	5 mail
+$ORIGIN net519.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+new			A	216.126.94.54
+			MX	5 mail
+$ORIGIN new.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+newworks		A	216.126.94.54
+			MX	5 mail
+$ORIGIN newworks.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+nhpt			A	216.126.94.54
+			MX	5 mail
+$ORIGIN nhpt.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+nise			A	216.126.94.54
+			MX	5 mail
+$ORIGIN nise.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+nordic			A	216.126.94.54
+			MX	5 mail
+$ORIGIN nordic.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+northhalton		A	216.126.94.54
+			MX	5 mail
+$ORIGIN northhalton.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+npasd			A	216.126.94.54
+			MX	5 mail
+$ORIGIN npasd.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+nrdp			A	216.126.94.54
+			MX	5 mail
+$ORIGIN nrdp.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+nshorago		A	216.126.94.54
+			MX	5 mail
+$ORIGIN nshorago.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+oa			A	66.152.98.207
+			MX	5 mail
+$ORIGIN oa.icomm.ca.
+www			A	66.152.98.207
+$ORIGIN icomm.ca.
+oadd			A	216.126.94.54
+			MX	5 mail
+$ORIGIN oadd.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+oata			A	216.126.94.54
+			MX	5 mail
+$ORIGIN oata.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ocab			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ocab.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ocf			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ocf.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ocff			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ocff.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ocsc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ocsc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+offstage		A	216.126.94.54
+			MX	5 mail
+$ORIGIN offstage.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ohiosort		A	216.126.94.54
+			MX	5 mail
+$ORIGIN ohiosort.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ohs			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ohs.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+oloa-youth		A	216.126.94.54
+			MX	5 mail
+$ORIGIN oloa-youth.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+onecntr			A	216.126.94.54
+			MX	5 mail
+$ORIGIN onecntr.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+onspec			A	216.126.94.54
+			MX	5 mail
+$ORIGIN onspec.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+opirgtor		A	216.126.94.54
+			MX	5 mail
+$ORIGIN opirgtor.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+options			A	216.126.94.54
+			MX	5 mail
+$ORIGIN options.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+otizon			A	216.126.94.54
+			MX	5 mail
+$ORIGIN otizon.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ottchoralsoc		A	216.126.94.54
+			MX	5 mail
+$ORIGIN ottchoralsoc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ourhouse		A	216.126.94.54
+			MX	5 mail
+$ORIGIN ourhouse.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+palmerstondc		A	216.126.94.54
+			MX	5 mail
+$ORIGIN palmerstondc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+parc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN parc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+parentsforum		A	216.126.94.54
+			MX	5 mail
+$ORIGIN parentsforum.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+pat			A	216.126.94.54
+			MX	5 mail
+$ORIGIN pat.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+patientsco		A	216.126.94.54
+			MX	5 mail
+$ORIGIN patientsco.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+paul			A	216.126.94.54
+			MX	5 mail
+$ORIGIN paul.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+pcmcc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN pcmcc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+pcs			A	216.126.94.54
+			MX	5 mail
+$ORIGIN pcs.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+peeas			A	216.126.94.54
+			MX	5 mail
+$ORIGIN peeas.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+peticija		A	216.126.94.54
+			MX	5 mail
+$ORIGIN peticija.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+pfcda			A	216.126.94.54
+			MX	5 mail
+$ORIGIN pfcda.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+phghouse		A	216.126.94.54
+			MX	5 mail
+$ORIGIN phghouse.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+pickford		A	216.126.94.54
+			MX	5 mail
+$ORIGIN pickford.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+potentrx		A	216.126.94.54
+			MX	5 mail
+$ORIGIN potentrx.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+povoada			A	216.126.94.54
+			MX	5 mail
+$ORIGIN povoada.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ppag			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ppag.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+prodec			A	216.126.94.54
+			MX	5 mail
+$ORIGIN prodec.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+promise			A	216.126.94.54
+			MX	5 mail
+$ORIGIN promise.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+psaao			A	216.126.94.54
+			MX	5 mail
+$ORIGIN psaao.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+psok			A	216.126.94.54
+			MX	5 mail
+$ORIGIN psok.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+pta-pw3			A	216.126.94.54
+			MX	5 mail
+$ORIGIN pta-pw3.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+pucc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN pucc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+pueblito		A	216.126.94.54
+			MX	5 mail
+$ORIGIN pueblito.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+qciwss			A	216.126.94.54
+			MX	5 mail
+$ORIGIN qciwss.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+queensharon		A	216.126.94.54
+			MX	5 mail
+$ORIGIN queensharon.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ragingspoon		A	216.126.94.54
+			MX	5 mail
+$ORIGIN ragingspoon.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+randy			A	216.126.94.54
+			MX	5 mail
+$ORIGIN randy.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+rcc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN rcc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+real			A	216.126.94.54
+			MX	5 mail
+$ORIGIN real.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+reasondetre		A	216.126.94.54
+			MX	5 mail
+$ORIGIN reasondetre.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+replay			A	216.126.94.54
+			MX	5 mail
+$ORIGIN replay.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+repos			A	216.126.94.54
+			MX	5 mail
+$ORIGIN repos.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+reptile			A	216.126.94.54
+			MX	5 mail
+$ORIGIN reptile.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+safechildren		A	216.126.94.54
+			MX	5 mail
+$ORIGIN safechildren.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+safetyctr		A	216.126.94.54
+			MX	5 mail
+$ORIGIN safetyctr.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+saints			A	216.126.94.54
+			MX	5 mail
+$ORIGIN saints.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+sccac			A	216.126.94.54
+			MX	5 mail
+$ORIGIN sccac.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+servcan			A	216.126.94.54
+			MX	5 mail
+$ORIGIN servcan.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+sethueducation		A	216.126.94.54
+			MX	5 mail
+$ORIGIN sethueducation.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+sfac			A	216.126.94.54
+			MX	5 mail
+$ORIGIN sfac.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+sfprg			A	216.126.94.54
+			MX	5 mail
+$ORIGIN sfprg.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+sh			A	216.126.94.54
+			MX	5 mail
+$ORIGIN sh.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+shabina			A	216.126.94.54
+			MX	5 mail
+$ORIGIN shabina.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+sheri			A	216.126.94.54
+$ORIGIN sheri.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+shsc			A	66.207.218.86
+			MX	5 mail
+$ORIGIN shsc.icomm.ca.
+www			A	66.207.218.86
+$ORIGIN icomm.ca.
+shul			A	216.126.94.54
+			MX	5 mail
+$ORIGIN shul.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+sip			A	216.126.94.54
+			MX	5 mail
+$ORIGIN sip.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+skeezix			A	216.126.94.54
+			MX	5 mail
+$ORIGIN skeezix.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+slaa			A	216.126.94.54
+			MX	5 mail
+$ORIGIN slaa.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+snlee			A	216.126.94.54
+			MX	5 mail
+$ORIGIN snlee.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+sohf			A	216.126.94.54
+			MX	5 mail
+$ORIGIN sohf.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+srcpc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN srcpc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+staged			A	216.126.94.54
+			MX	5 mail
+$ORIGIN staged.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+stc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN stc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+stdavids		A	216.126.94.54
+			MX	5 mail
+$ORIGIN stdavids.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+stimes			A	216.126.94.54
+			MX	5 mail
+$ORIGIN stimes.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+stmary			A	216.126.94.54
+			MX	5 mail
+$ORIGIN stmary.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+stop103			A	216.126.94.54
+			MX	5 mail
+$ORIGIN stop103.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+strath2k		A	216.126.94.54
+			MX	5 mail
+$ORIGIN strath2k.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ststeph			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ststeph.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+stz			A	216.126.94.54
+			MX	5 mail
+$ORIGIN stz.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+survival		A	216.126.94.54
+			MX	5 mail
+$ORIGIN survival.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+svcca			A	216.126.94.54
+			MX	5 mail
+$ORIGIN svcca.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+sw			A	216.126.94.54
+			MX	5 mail
+$ORIGIN sw.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+swaa			A	216.126.94.54
+			MX	5 mail
+$ORIGIN swaa.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+swba			A	216.126.94.54
+			MX	5 mail
+$ORIGIN swba.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+syoung			MX	5 mail
+tailler			A	216.126.94.54
+			MX	5 mail
+$ORIGIN tailler.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+tall			A	216.126.94.54
+			MX	5 mail
+$ORIGIN tall.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+tan			A	216.126.94.54
+			MX	5 mail
+$ORIGIN tan.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+tcgsar1			A	216.126.94.54
+			MX	5 mail
+$ORIGIN tcgsar1.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+tcon			A	216.126.94.54
+			MX	5 mail
+$ORIGIN tcon.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+tcrndp			A	216.126.94.54
+			MX	5 mail
+$ORIGIN tcrndp.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+tenants			A	216.126.94.54
+			MX	5 mail
+$ORIGIN tenants.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+terrorvictims		A	216.126.94.54
+			MX	5 mail
+$ORIGIN terrorvictims.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+test			A	216.126.94.54
+			MX	5 mail
+$ORIGIN test.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+tgs			A	216.126.94.54
+			MX	5 mail
+$ORIGIN tgs.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+the519			A	216.126.94.54
+			MX	5 mail
+$ORIGIN the519.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+tikkuninst		A	216.126.94.54
+			MX	5 mail
+$ORIGIN tikkuninst.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+tinycap			A	216.126.94.54
+			MX	5 mail
+$ORIGIN tinycap.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+torfree			A	216.126.94.54
+			MX	5 mail
+$ORIGIN torfree.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+toseniors		A	216.126.94.54
+			MX	5 mail
+$ORIGIN toseniors.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+towerpoetry		A	216.126.94.54
+			MX	5 mail
+$ORIGIN towerpoetry.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+toxwatch		A	216.126.94.54
+			MX	5 mail
+$ORIGIN toxwatch.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+tpug			A	66.207.218.86
+			MX	5 mail
+$ORIGIN tpug.icomm.ca.
+www			A	66.207.218.86
+$ORIGIN icomm.ca.
+trading-post		A	216.126.94.54
+			MX	5 mail
+$ORIGIN trading-post.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+troc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN troc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+troop57			A	216.126.94.54
+			MX	5 mail
+$ORIGIN troop57.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+turtles			A	216.126.94.54
+			MX	5 mail
+$ORIGIN turtles.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+tuxedo			A	216.126.94.54
+			MX	5 mail
+$ORIGIN tuxedo.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+twg			A	216.126.94.54
+			MX	5 mail
+$ORIGIN twg.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ucfo			A	216.126.94.54
+			MX	5 mail
+$ORIGIN ucfo.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+untimall		A	216.126.94.54
+			MX	5 mail
+$ORIGIN untimall.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+usc			A	216.126.94.54
+			MX	5 mail
+$ORIGIN usc.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+utballroom		A	216.126.94.54
+			MX	5 mail
+$ORIGIN utballroom.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+val			A	216.126.94.54
+			MX	5 mail
+$ORIGIN val.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+venom			A	216.126.94.54
+			MX	5 mail
+$ORIGIN venom.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+vitlsprk		A	216.126.94.54
+			MX	5 mail
+$ORIGIN vitlsprk.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+vulvarpain		A	216.126.94.54
+			MX	5 mail
+$ORIGIN vulvarpain.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+wac			A	216.126.94.54
+			MX	5 mail
+$ORIGIN wac.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+wardrobe		A	216.126.94.54
+			MX	5 mail
+$ORIGIN wardrobe.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+wawa			A	216.126.94.54
+			MX	5 mail
+$ORIGIN wawa.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+webnet			A	216.126.94.54
+			MX	5 mail
+$ORIGIN webnet.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+wellesley		A	216.126.94.54
+			MX	5 mail
+$ORIGIN wellesley.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+wellesley91		A	216.126.94.54
+			MX	5 mail
+$ORIGIN wellesley91.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+wendo			A	216.126.94.54
+			MX	5 mail
+$ORIGIN wendo.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+wildrr			A	216.126.94.54
+			MX	5 mail
+$ORIGIN wildrr.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+wisafrica		A	216.126.94.54
+			MX	5 mail
+$ORIGIN wisafrica.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+wnn			A	216.126.94.54
+			MX	5 mail
+$ORIGIN wnn.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+women1st		A	216.126.94.54
+			MX	5 mail
+$ORIGIN women1st.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+workfare		A	216.126.94.54
+			MX	5 mail
+$ORIGIN workfare.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+www			A	66.207.216.45
+yas			A	216.126.94.54
+			MX	5 mail
+$ORIGIN yas.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+yfa			A	216.126.94.54
+			MX	5 mail
+$ORIGIN yfa.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+youthbld		A	216.126.94.54
+			MX	5 mail
+$ORIGIN youthbld.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN icomm.ca.
+ysnrockford		A	216.126.94.54
+			MX	5 mail
+$ORIGIN ysnrockford.icomm.ca.
+www			A	216.126.94.54
+$ORIGIN .
+$TTL 86400	; 1 day
+deepsky.com		IN SOA	vader.deepsky.com. root.deepsky.com. (
+				1311007289 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				302400     ; expire (3 days 12 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	ns1.walled.net.
+			NS	ns2.walled.net.
+			NS	vader.deepsky.com.
+			A	66.207.216.43
+			MX	10 outrider.deepsky.com.
+			MX	15 vader.deepsky.com.
+$ORIGIN deepsky.com.
+avt-devel		A	66.207.216.44
+boba			A	66.207.216.44
+coruscant		A	66.207.216.46
+crisis			A	66.207.216.44
+ftp			A	66.207.216.43
+glif			A	66.207.216.43
+infiltrator		A	66.207.216.46
+jabber			A	66.207.216.43
+killbear		A	66.207.216.43
+localhost		A	127.0.0.1
+locust			A	66.207.216.46
+mail			A	66.207.216.43
+maul			A	66.207.216.43
+outrider		A	66.207.216.43
+pipe			A	66.207.216.43
+post			A	66.207.216.43
+r2d2			A	66.207.216.46
+r3d4			A	66.207.216.44
+sidius			A	216.126.86.10
+siggraph		A	66.207.216.43
+slave1			A	216.235.8.62
+sparrow			A	66.207.216.43
+time			A	66.207.216.43
+url			A	66.207.216.43
+vader			A	66.207.216.42
+wap			A	66.207.216.43
+www			A	66.207.216.43
+$ORIGIN .
+$TTL 86400	; 1 day
+mississaugawatch.ca	IN SOA	vader.deepsky.com. root.deepsky.com. (
+				1201118194 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				302400     ; expire (3 days 12 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	dns01.walled.net.
+			NS	vader.deepsky.com.
+			A	66.207.216.43
+			MX	10 mail.deepsky.com.
+			MX	15 mail.walled.net.
+$ORIGIN mississaugawatch.ca.
+ftp			A	66.207.216.43
+mail			A	66.207.216.43
+www			A	66.207.216.43
