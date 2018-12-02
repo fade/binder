@@ -127,39 +127,55 @@
   (uiop:read-file-lines file))
 
 (defun parse-bind-slave-log (lines)
-  (let* ((ratchet nil)
-         ;; ^\$ORIGIN\s+\w+\.\w+|^\$ORIGIN\s+\.
-         (soareg (cl-ppcre:create-scanner "\w.\w\s*IN\s*SOA"))
+  (let* (;; are we at the top of a zone?
+         (ratchet nil)
+         ;; if so, are we in a records field?
+         (capture-records nil)
+         ;; (soareg (cl-ppcre:create-scanner "\\w.\\w\\s*IN\\s*SOA"))
          ;; (soaend (cl-ppcre:create-scanner ".*\)"))
-         (record (cl-ppcre:create-scanner "(\s*[^SO]A\s*|INFO|TXT|HINFO|LOC|CNAME|^\$INCLUDE)"))
-         (A      (cl-ppcre:create-scanner "(\s+A\s+)"))
+         (record (cl-ppcre:create-scanner "(\\s*[^SO]A\\s*|MX|NS|INFO|TXT|HINFO|LOC|CNAME|^\\$INCLUDE)"))
+         ;; A, MX, and NS all exist as 2uples, without host names. 
+         (A      (cl-ppcre:create-scanner "(\\s+A\\s+)"))
          (ismx   (cl-ppcre:create-scanner "(MX)"))
          (isns   (cl-ppcre:create-scanner "(NS)"))
-         (origin-top (cl-ppcre:create-scanner "(ORIGIN\s*[^\p]*\.)"))
-         (origin-mid (cl-ppcre:create-scanner "(^\$ORIGIN\s+\w+\.\w+)"))
+         ;; (origin-test (cl-ppcre:create-scanner "ORIGIN\\w*(\\p*).$")) ;; ORIGIN\w*(\p*).$
+         (origin-top (cl-ppcre:create-scanner "(ORIGIN\\s*[^\\p]*\\.)"))
+         (origin-mid (cl-ppcre:create-scanner "(\\$ORIGIN\\s+\\w+\\.\\w+)"))
          soa-list
          ns-list
          mx-list
          red-list)
-    (declare (ignorable ratchet soareg record ismx isns soa-list ns-list mx-list red-list a origin-top origin-mid))
+    (declare (ignorable ratchet record ismx isns soa-list ns-list mx-list red-list a origin-top origin-mid))
     (loop for line in lines
           for count upfrom 1
+          ;; for rawdata = (list)
           do (cond
-               ;; ((search "ORIGIN" line :test #'string-equal) ;;(cl-ppcre:scan origin-top line)
+               ((search "ORIGIN ." line :test #'string-equal) ;;(cl-ppcre:scan origin-top line)
+                (let ((otop (cl-ppcre:split "\\s+" line)))
+                  (format t "~&~05D Type: ORIGIN-TOP ~S: ~A" count otop line)
+                  (setf ratchet t)))
+               ((and ratchet (cl-ppcre:scan origin-mid line))
+                ;; (format t "~&||{~{~A~^ ~}}||" (cl-ppcre:split "\\s+" line))
+                (setf capture-records t))
+               ((and capture-records (cl-ppcre:scan record line))
+                (format t "~&[[~{~A~^ ~}]]" (cl-ppcre:split "\\s+" line))
+                )
+               (t
+                (let ((soa (cl-ppcre:split "\\s+" line)))
+                  (pushnew soa soa-list))
+                (format t "~&BORK! :: ~A" line))
+               ;; ((cl-ppcre:scan origin-test line) ;; (search "ORIGIN" line :test #'string-equal)
                ;;  (let ((origin-top (cl-ppcre:scan-to-strings origin-top line)))
-               ;;    (format t "~&[~05D] Type: ORIGIN-TOP ~S: ~A" count origin-top line)))
-               ((cl-ppcre:scan origin-top line) ;; (search "ORIGIN" line :test #'string-equal)
-                (let ((origin-top (cl-ppcre:scan-to-strings origin-top line)))
-                  (format t "~&[~05D] Type: ORIGIN-TOP ~A: ~S" count origin-top line)))
+               ;;    (format t "~&[~05D] Type: ORIGIN-TOP ~A: ~S" count origin-top line)))
                ;; ((cl-ppcre:scan origin-mid line)
                ;;  (let ((origin-mid (cl-ppcre:scan-to-strings origin-mid line)))
                ;;    (format t "~&[~05D] Type: ORIGIN-MID ~S: ~A" count origin-mid line)))
                ;; ((cl-ppcre:scan soareg line)
                ;;  (let ((soa (cl-ppcre:scan-to-strings soareg line)))
                ;;    (format t "~&[~05D] Type: ||SOA|| ~S: ~A" count soa line)))
-               ((cl-ppcre:scan record line)
-                (let ((record (cl-ppcre:scan-to-strings record line)))
-                  (format t "~&[~05D] Type: REKKID ~A: ~S" count record line)))
+               ;; ((cl-ppcre:scan record line)
+               ;;  (let ((record (cl-ppcre:scan-to-strings record line)))
+               ;;    (format t "~&[~05D] Type: REKKID ~A: ~S" count record line)))
                ;; ((cl-ppcre:scan A line)
                ;;  (let ((vatch (cl-ppcre:scan-to-strings A line)))
                ;;    (format t "~&[~05D] Type: BLONX ~A: ~S" count vatch line)))
@@ -170,11 +186,9 @@
                ;; (t
                ;;  (format t "~&[~05D] No Match: ~A" count line))
                )
+             finally (return soa-list)
           )
 
-    ;; (if (cl-ppcre:scan "\@+\W+IN\W+SOA" line)
-    ;;                  (format t "~&[~05D] ~A" count line)
-    ;;                  (format t "~&[~05D] No Line Matched SOA" count))
 
     (defun -main (&optional args)
       (format t "~a ~a~%" args "I don't do much yet"))))
